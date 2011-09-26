@@ -32,7 +32,7 @@ def crt(m, v, symmetric=False):
         return result
 
 def crt1(m):
-    """First part of chines remainder theorem, for multiple application. """
+    """First part of Chinese Remainder Theorem, for multiple application. """
     mm, e, s = 1, [], []
 
     for m_i in m:
